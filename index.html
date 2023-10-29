@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/797299418b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Blog The Office</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul id="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                    <ul>
+                        <li><a href="principales.html">Principales</a></li>
+                        <li><a href="secundarios.html">Secundarios</a></li>
+                    </ul>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="principal">
+            <div>
+                <h2>Una inmersión en la vida de oficina con toques de humor: The Office</h2>
+            </div>
+            </article>
+            <h1>The Office</h1>
+        <article class="secundario">
+            <div>
+                <a href="#">
+                    <img src="images/dinner party.jpg" alt="">
+                    <h4>Dinner Party: Temporada 4, Episodio 13</h4>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/jim y pam wedding.jpg" alt="">
+                    <h4>Niagara: Temporada 6, Episodios 4 y 5</h4>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/threat level midnight.jpg" alt="">
+                    <h4>Threat Level Midnight: Temporada 7, Episodio 17</h4>
+            </div>        
+        </article>
+    </section>
+    <footer>
+        <a href="#"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+</body>
+</html>
