@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/797299418b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>Blog The Office</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                    <ul class="submenu">
+                        <li><a href="principales.html">Principales</a></li>
+                        <li><a href="secundarios.html">Secundarios</a></li>
+                    </ul>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Personajes Secundarios The Office</h1>  
+    <nav class="test">   
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/angela.jpg" data-lightbox="image1" data-title="Angela Martin "><img src="images/angela.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Angela Martin</h2>
+                <p>Angela Martin es un personaje que se destaca por su personalidad extremadamente reservada y rígida. Es también una cristiana conservadora y tiene una actitud moralmente estricta, lo que a menudo choca con las actitudes y comportamientos de sus colegas en la oficina. </p>     
+            </div> 
+        </article> 
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/kelly.jpg" data-lightbox="image1" data-title="Kelly Kapoor "><img src="images/kelly.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Kelly Kapoor </h2>
+                <p>Kelly Kapoor es un personaje que se destaca por su personalidad extrovertida y su amor por la atención. Muestra una obsesión por la cultura pop y un interés constante en las redes sociales y la farándula. Es conocida por su incapacidad para mantener sus emociones bajo control.</p>     
+            </div> 
+        </article>
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/ryan.jpg" data-lightbox="image1" data-title="Ryan Howard "><img src="images/ryan.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Ryan Howard </h2>
+                <p>Ryan Howard es un empleado joven que se incorpora a la empresa al comienzo de la serie. A lo largo de la serie, los espectadores pueden observar cómo evoluciona su personalidad y cómo enfrenta diversos desafíos tanto en el ámbito profesional como en el personal.</p>     
+            </div> 
+        </article>
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/oscar.jpg" data-lightbox="image1" data-title="Oscar Martinez"><img src="images/oscar.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Oscar Martinez</h2>
+                <p>Oscar es conocido por ser un empleado altamente educado y profesional en la oficina. Tiene una mente aguda y se preocupa por realizar su trabajo de manera eficiente y precisa. A menudo, actúa como una voz de razón y lógica en medio de la caótica dinámica de la oficina. </p>     
+            </div> 
+        </article>
+    </nav>     
+    </section>
+    <footer>
+        <a href="https://www.facebook.com/TheOfficeTV/" target="_blank"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+        <a href="https://twitter.com/TheOffice" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+        <a href="https://www.instagram.com/theoffice/" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+        <a href="https://www.youtube.com/c/TheOfficeUS/videos" target="_blank"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a> 
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

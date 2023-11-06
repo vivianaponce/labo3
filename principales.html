@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/797299418b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>Blog The Office</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                    <ul class="submenu">
+                        <li><a href="principales.html">Principales</a></li>
+                        <li><a href="secundarios.html">Secundarios</a></li>
+                    </ul>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Personajes Principales The Office</h1>  
+    <nav class="test">   
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/michael.JPG" data-lightbox="image1" data-title="Michael Scott"><img src="images/michael.JPG" width="150px"></a>
+            </div>
+            <div>
+                <h2>Michael Scott</h2>
+                <p>Michael Scott es el gerente regional de Dunder Mifflin en Scranton, Pennsylvania. Él intenta desesperadamente ser un jefe efectivo, pero sus esfuerzos suelen llevar a situaciones cómicas y momentos incómodos. Su falta de habilidades de comunicación y su necesidad de ser el centro de atención a veces lo hacen parecer torpe y fuera de lugar.</p>     
+            </div> 
+        </article> 
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/jim.jpg" data-lightbox="image1" data-title="Jim Halpert"><img src="images/jim.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Jim Halpert</h2>
+                <p>Jim Halpert, es un personaje carismático y esencial en la serie. Su personalidad se destaca por su sentido del humor, su inteligencia y su actitud relajada. Jim es conocido por su capacidad para enfrentar la rutina de la oficina con bromas y sarcasmo, lo que lo convierte en uno de los personajes más divertidos de la serie.  </p>     
+            </div> 
+        </article>
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/pam.jpg" data-lightbox="image1" data-title="Pam Beasly"><img src="images/pam.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Pam Beasly</h2>
+                <p>Pam se presenta como una recepcionista tímida y reservada. Su personalidad se caracteriza por una falta de confianza en sí misma y una aparente conformidad con su vida profesional y personal. A menudo se siente atrapada en su papel y no se atreve a expresar abiertamente sus deseos o aspiraciones. </p>     
+            </div> 
+        </article>
+        <article class="personajes">
+            <div class="contenedor">
+                <a href="images/dwight.jpg" data-lightbox="image1" data-title="Dwight Schrute "><img src="images/dwight.jpg" width="150px"></a>
+            </div>
+            <div>
+                <h2>Dwight Schrute </h2>
+                <p>Dwight Schrute es un personaje extremadamente distintivo y peculiar. Es ambicioso, leal a Dunder Mifflin y a su jefe Michael Scott, y tiene una autoconfianza inquebrantable. Su rigidez y falta de empatía a menudo lo hacen insensible hacia sus compañeros de trabajo.  </p>     
+            </div> 
+        </article>
+    </nav>     
+    </section>
+    <footer>
+        <a href="https://www.facebook.com/TheOfficeTV/" target="_blank"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+        <a href="https://twitter.com/TheOffice" target="_blank"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+        <a href="https://www.instagram.com/theoffice/" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+        <a href="https://www.youtube.com/c/TheOfficeUS/videos" target="_blank"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a> 
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
